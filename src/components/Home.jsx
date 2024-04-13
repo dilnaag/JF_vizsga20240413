@@ -14,9 +14,9 @@ export const Home = () => {
         <img src={background} alt="" />
       </header>
       <main>
-        <div className='contanier d-flex flex-wrap gap-3 justify-content-center ' style={{width: '1200px', backgroundColor: "#c7d2fe"}}>
+        <div className='contanier d-flex flex-wrap gap-3 justify-content-center ' >
         <h4>Ingatlanok minden kategóriában</h4>
-        <div className="categ" style={{ background: 'linear-gradient' }}>
+        <div className="categ" style={{ background: "#c7d2fe" }}>
           <div className="haz ">
             <img src={haz} alt="" />
             <p>Házak</p>
